@@ -1,0 +1,164 @@
+*{
+    margin: 0px;
+
+}
+.header{
+    width: 100%;
+    height: 126px;
+    background-color: rgb(51, 49, 49);
+    
+}
+.top-head{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35px;
+    
+    background-color: black;
+}
+.head-body{
+    color: white;
+}
+p.head-body{
+    margin-top: 10px;
+}
+span{
+    margin-top: 3px;
+        color :white;
+        font-size:27px;
+}
+.nav-div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    margin-top: 1px;
+  
+  
+    background-color: black;
+    
+}
+.logo{
+    position: relative;
+    top: 8px;
+    left: 58px;
+    height: 35px;
+    width: 150px;
+    margin-right: 40px;
+}
+.nav-icon{
+    width: 115px;
+    height: 25px;
+}
+
+.nav-item{
+    width: 350px;
+    height: 25px;
+    position: relative;
+    top: 6px;
+    left: 10px;
+}
+ul{
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(206, 206, 206);
+}
+ul :hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.li-home{
+    text-decoration: underline;
+}
+.nav-side-icons{
+    height: 24px;
+    width: 678px;
+    display: flex;
+    justify-content: end;
+}
+.shoping-bag{
+    height: 24px;
+    width: 35px;
+}
+.container-body{
+    width: 100%;
+    height: 1290px;
+   display: grid;
+   grid-template-columns:350px 350px 350px;
+   grid-template-rows: 370px 370px 370px;
+   justify-content: center;
+   padding-top: 37px;
+   row-gap: 45px;
+   column-gap: 45px;
+}
+.book-img{
+    position: sticky;
+    top: 0;
+    width: 350px;
+    height: 370px;
+}
+.container-2-main{
+
+width: 100%;
+height: 550px;
+}
+
+.container-2{
+    padding-left: 20px;
+    width: 835px;
+    display: flex;
+    justify-content: space-around;
+}
+
+ .container-2-imgdiv{
+    height: 475px;
+    width: 350px;
+}
+  .container-2-condent{
+    padding-top: 40px;
+    text-align: start;
+    line-height: 50px;
+  }
+  button{
+    background-color: black;
+    color: white;
+    height: 48px;
+    width: 125px;
+    font-size: 16px;
+  }
+  .footer{
+    width: 100%;
+    height: 450px;
+    padding-top: 40px;
+     background-color: black;
+  }
+
+  .footer-condent{
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    height: 230px;
+    width: 200px;
+    margin-left: 525px;
+  }
+  .insta-icon{
+    width: 30px;
+    height: 30px;
+  }
+  .footer-final{
+    display: flex;
+    margin-top: 190px;
+    height: 30px;
+    width: 1263px;
+    color: gainsboro;
+    font-size: 12px;
+  }
+  .footer-list{
+    margin-right: 10px;
+  }
+  .footer-li{
+    margin-left: 18px;
+  }
